@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  demo-flask-app:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2019-06-24T13:45:40.667346271+01:00
+    description: A Helm chart for Kubernetes
+    digest: 20f263a957fc91408fc11ef6f12a8ce926f1af91a0baece6a6aa333700ba7a28
+    name: demo-flask-app
+    urls:
+    - demo-flask-app-0.1.0.tgz
+    version: 0.1.0
+generated: 2019-06-24T13:45:40.665846076+01:00
