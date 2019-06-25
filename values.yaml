@@ -26,7 +26,7 @@ ingress:
   hosts:
     - demo-aks-ingress.uksouth.cloudapp.azure.com
   tls:
-   - secretName: letsencrypt-prod"
+   - secretName: letsencrypt-prod
      hosts:
        - demo-aks-ingress.uksouth.cloudapp.azure.com
 
