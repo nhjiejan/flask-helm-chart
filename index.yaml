@@ -3,7 +3,16 @@ entries:
   demo-flask-app:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-06-24T14:46:31.086902951+01:00
+    created: 2019-06-25T11:09:33.470304674+01:00
+    description: A Helm chart for Kubernetes
+    digest: d19e52bebb351ffb57ace98d12fccaa3feb0131c3c1cb063d55302af87311b0f
+    name: demo-flask-app
+    urls:
+    - demo-flask-app-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2019-06-25T11:09:33.469651323+01:00
     description: A Helm chart for Kubernetes
     digest: e6e32ee2a49763ca26068916365b0f9fee3d5b5c2e9f7c30559708e74df7bf1f
     name: demo-flask-app
@@ -12,11 +21,11 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-06-24T14:46:31.086292736+01:00
+    created: 2019-06-25T11:09:33.469200484+01:00
     description: A Helm chart for Kubernetes
     digest: 1841f77758ee6f2eba485402750347df5bdf3e167ec2e1d1e12ebb7227112de8
     name: demo-flask-app
     urls:
     - demo-flask-app-0.1.0.tgz
     version: 0.1.0
-generated: 2019-06-24T14:46:31.084757344+01:00
+generated: 2019-06-25T11:09:33.468411774+01:00

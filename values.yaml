@@ -17,16 +17,16 @@ service:
   port: 80
 
 ingress:
-  enabled: false
+  enabled: true
   annotations:
-    kubernetes.io/ingress.class: nginx
-    certmanager.k8s.io/cluster-issuer: letsencrypt-staging
-    nginx.ingress.kubernetes.io/rewrite-target: /$1
+    # kubernetes.io/ingress.class: nginx
+    # certmanager.k8s.io/cluster-issuer: letsencrypt-staging
+    # nginx.ingress.kubernetes.io/rewrite-target: /$1
   path: /
   hosts:
     - demo-aks-ingress.uksouth.cloudapp.azure.com
   tls:
-   - secretName: letsencrypt-staging
+   - secretName: letsencrypt-prod"
      hosts:
        - demo-aks-ingress.uksouth.cloudapp.azure.com
 
